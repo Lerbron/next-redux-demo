@@ -1,0 +1,41 @@
+$txt_active: #02A7F0;
+
+.list-item{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover > span{
+    color: $txt_active;
+  }
+
+  .list-title{
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .list-time{
+    display: block;
+    width: 200px;
+    text-align: right;
+  }
+  .list-avatar{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    border-radius: 3px;
+    margin-right: 10px;
+    // justify-content: ;
+    img{
+      width: 30px;
+      border-radius: 3px;
+
+    }
+  }
+}

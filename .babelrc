@@ -1,0 +1,20 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@": "./"
+        }
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ]
+}
