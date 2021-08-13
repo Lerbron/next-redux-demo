@@ -20,7 +20,7 @@
     "http-proxy-middleware": "^1.0.3",
     "js-cookie": "^2.2.1",
     "moment": "^2.26.0",
-    "next": "^9.4.2",
+    "next": "^11.1.0",
     "next-redux-wrapper": "^5.0.0",
     "node-sass": "^4.13.1",
     "nodemon": "^2.0.2",
