@@ -22,7 +22,7 @@
     "moment": "^2.26.0",
     "next": "^9.4.2",
     "next-redux-wrapper": "^5.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.2",
     "null-loader": "^3.0.0",
     "react": "^16.9.0",
